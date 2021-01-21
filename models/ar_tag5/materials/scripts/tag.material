@@ -1,0 +1,14 @@
+material TagTexture5
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ../textures/Spiri_Rune_5.jpg
+      }
+    }
+  }
+}
+

@@ -1,0 +1,14 @@
+material TagTexture8
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ../textures/Spiri_Rune_8.jpg
+      }
+    }
+  }
+}
+

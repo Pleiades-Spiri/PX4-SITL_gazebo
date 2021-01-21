@@ -1,0 +1,14 @@
+material TagTexture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ../textures/id_0-0_size_18.80cmx18.80cm.png
+      }
+    }
+  }
+}
+

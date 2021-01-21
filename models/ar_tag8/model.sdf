@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <model name="AR Tag8">
+    <pose>0 0 0 0 0 0</pose>
+    <link name="robot_link">
+      <collision name="body_collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <pose frame=''>0 0 0 0 0 3.14</pose>
+      <visual name="body_visual">
+        <geometry>
+          <box>
+            <size>1e-05 1 1</size>
+          </box>
+        </geometry>
+        <material>
+              <script>
+                  <uri>model://ar_tag8/materials/scripts</uri>
+                  <uri>model://ar_tag8/materials/textures</uri>
+                  <name>TagTexture8</name>
+              </script>
+       <ambient>1 1 1 1</ambient>
+       <diffuse>1 1 1 1</diffuse>
+       <specular>0 0 0 1</specular>
+       <emissive>1 1 1 0</emissive>
+       <shader type='vertex'>
+         <normal_map>__default__</normal_map>
+       </shader>
+     </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
